@@ -1,0 +1,68 @@
+ html {
+    width: 100%;
+    background-color: aquamarine;
+    background-image: url(star.png);
+    background-repeat: repeat;
+    background-size: cover;
+ }
+ h1 {
+    color: green;
+    text-decoration: underline;
+    text-align: center;
+ }
+.form {
+    display: grid;
+    background-color: rgba(255, 228, 196, 0.877);
+    width: 60%;
+    border-radius: 10px;
+    border: 15px;
+    border-style: groove;
+    border-color:rgba(230, 76, 11, 0.89) ;
+    box-sizing: border-box;
+    justify-content: center;
+    justify-self: center;
+}
+input[type=text]{
+    width: 100%;
+    padding: 10px 16px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+#gender {
+    width: 100%;
+    padding: 10px 16px;
+    margin: 8px 0;
+    box-sizing: border-box;  
+}
+#reference {
+    width: 100%;
+    padding: 10px 16px;
+    margin: 8px 0;
+    box-sizing: border-box; 
+}
+input[type=email]{
+    width: 100%;
+    padding: 10px 16px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=date]{
+    width: 100%;
+    padding: 10px 16px;
+    margin: 8px 0;
+    box-sizing: border-box;  
+}
+[type=button] {
+    width: 100px;
+    padding: 4px 8px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border-style: groove;
+}
+[type=reset] {
+    width: 100px;
+    padding: 4px 8px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border-style: groove;
+}

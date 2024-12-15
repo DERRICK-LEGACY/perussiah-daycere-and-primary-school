@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.GALLERY{
+    align-items: center;
+    display: grid;
+    justify-content: center; 
+    width: 100%;
+    grid-template-columns: repeat(8, 1fr);
+    height: 100vh;
+    gap: 30px;
+    align-items: center;
+}
+.item1{
+    background-image: url(gala1.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    text-align: center;
+    width: 60%;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 5px 15px;
+    height: 40vh; 
+}
+.item2{
+    background-image: url(gala\ 2.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    text-align: center;
+    width: 60%;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 5px 15px;
+    height: 40vh; 
+}
+.item3{
+    background-image: url(gala5.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    text-align: center;
+    width: 60%;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 5px 15px;
+    height: 40vh; 
+}
+.item4{
+    background-image: url(gala\ 4.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    text-align: center;
+    width: 60%;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 5px 15px;
+    height: 40vh; 
+}
+.item5{
+    background-image: url(speech.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    text-align: center;
+    width: 60%;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 5px 15px;
+    height: 40vh; 
+}
+.item6{
+    background-image: url(front2.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    text-align: center;
+    width: 60%;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 5px 15px;
+    height: 40vh; 
+}
+.item7{
+    background-image: url(admission.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    text-align: center;
+    width: 60%;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 5px 15px;
+    height: 40vh; 
+}
+.item8{
+    background-image: url(wing.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    text-align: center;
+    width: 60%;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 5px 15px;
+    height: 40vh; 
+}

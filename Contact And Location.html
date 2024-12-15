@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="location.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<header>
+    <nav>
+        <ul >
+            <a href="HOME.html"><i class="fa-solid fa-house-chimney fa-2x" style="border: none; box-shadow: 2px 4px 13px;"></i>HOME</a>
+            <a href="ABOUT.html"><i class="fa-solid fa-address-card fa-2x" style="border: none; box-shadow: 2px 4px 13px;"></i>ABOUT</a>
+            <a href="Contact And Location.html"><i class="fa-solid fa-phone fa-2x" style="border: none; box-shadow: 2px 4px 13px;"></i>CONTACT</a>
+            <a href="ACADEMICS.html"><i class="fa-solid fa-book fa-2x"style="border: none; box-shadow: 2px 4px 13px;" ></i>ACADEMICS</a>
+            </ul>
+            <div class="socialmediaicon">
+            <i class="fa-brands fa-whatsapp" style="color: green; font-size: xx-large; background-color: white;"></i>
+            <i class="fa-brands fa-facebook" style="color: blue; font-size: xx-large; background-color: white;"></i>
+            <i class="fa-brands fa-twitter" style="color: black;font-size: xx-large; background-color: white;"></i>
+            <i class="fa-solid fa-envelope" style="color: red;font-size: xx-large; background-color: white;"></i>
+            </div>
+    </nav>
+</header>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<body>
+    <section class="section">
+        <h1>CONTACT US ON OUR PLATFORMS.</h1>
+        <p class="whatsapp"><i class="fa-brands fa-whatsapp fa-2x"></i> 
+        :  +256 782 948 588 , +256 703 390 814 , +256 758 008 874
+        </p>
+        <p class="facebook"><i class="fa-brands fa-facebook fa-2x"></i> :  Perussiah daycare nur& primary shcool </p>
+        <p class="twitter"><i class="fa-brands fa-twitter fa-2x "></i>:  Perussiah daycare nur& primary shcool</p>
+        <p class="Email"><i class="fa-solid fa-envelopefa-2x "><a class="mail" href="mailto:perussiah2009@gmail.com?Subject=  Send Email">: Perussiah2009@gmail.com </i></a></p>
+    </section>
+    <h2>LOCATION</h2>
+    <p class="location">
+    <i class="fa-solid fa-location-dot"></i> :
+    opp Munaku Road-Masiiro zone (iii) , Nabulagala
+    </p>
+  <h4> Directions to the School</h4> 
+  <div class="direction">
+  <div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15959.017375751822!2d32.53512561321257!3d0.3244677724507784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbb850d7a7965%3A0xaa867ea8eac4abb6!2sGood%20Hope%20Nabulagala%20Primary%20School!5e0!3m2!1sen!2sug!4v1729153635177!5m2!1sen!2sug" width="400px" height="250px" style="border:0;border-radius: 5px;border-style: groove; " allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<div>
+    <video width="320" height="240" controls> <source src="WhatsApp Video 2024-12-14 at 12.10.42_35946f3f.mp4" type="video/mp4"></video>
+</div>
+</div> 
+<script>
+    // Interactive Social Media Icons
+    document.addEventListener("DOMContentLoaded", () => {
+      const icons = document.querySelectorAll(".socialmediaicon i");
+  
+      icons.forEach(icon => {
+        // Hover effect
+        icon.addEventListener("mouseover", () => {
+          icon.style.transform = "scale(1.2)";
+          icon.style.transition = "transform 0.3s ease";
+        });
+  
+        icon.addEventListener("mouseout", () => {
+          icon.style.transform = "scale(1)";
+        });
+  
+        // Click events for redirection
+        icon.addEventListener("click", () => {
+          let platform = icon.classList[1]; // e.g., "fa-whatsapp", "fa-facebook"
+          switch (platform) {
+            case "fa-whatsapp":
+              window.open("https://wa.me/+256703390874", "_blank");
+              break;
+            case "fa-facebook":
+              window.open("https://facebook.com/yourprofile", "_blank");
+              break;
+            case "fa-twitter":
+              window.open("https://twitter.com/DerrickLeg20075", "_blank");
+              break;
+            case "fa-envelope":
+              window.open("mailto:perussiah2009@gmail.com", "_self");
+              break;
+            default:
+              alert("Social media link not set!");
+          }
+        });
+      });
+    });
+  </script>
+</body>
+<footer class="areafooter">
+    <marquee behavior="bounce" direction="left"> <p style="color: green;">2024 &copy; PERUSSIAH DAYCARE NURSERY AND PRIMARY SCHOOL</p></marquee>
+    <br>
+    <h2 class="about">About:</h2>
+    <p class="vission">Founded by Mr perusssiah. As Elite Saints of heaven with a vision to anture Ugandan children in to progressive and reliable pillars of the Nation. </p>
+<h2 class="about">FOLLOW US:</h2>
+<p class="icons">
+  <a href="https://wa.me/+256703390874", "_blank"><i class="fa-brands fa-whatsapp" style="color: green; font-size: xx-large; background-color: white;"></i></a>
+  <a href="https://facebook.com/derrick234", "_blank""></a><i class="fa-brands fa-facebook" style="color: blue; font-size: xx-large; background-color: white;"></i></a>
+  <a href="https://twitter.com/DerrickLeg20075", "_blank""><i class="fa-brands fa-twitter" style="color: black;font-size: xx-large; background-color: white;"></i></a>
+</p>
+<hr>
+<h3 class="office">HEAD OFFICE: </h3>
+<p class="location" style="color: white; text-align: center;">
+    <i class="fa-solid fa-location-dot" style="color: red;"></i> :
+    opp Munaku Road-Masiiro zone (iii) , Nabulagala
+    </p>
+    <p class="Email" style="color: white; text-align: center;"><i class="fa-solid fa-envelope" style="color: white;"><a class="mail" href="mailto:perussiah2009@gmail.com?Subject=  Send Email">: Perussiah2009@gmail.com </i></a></p>
+<p style="color: white; text-align: center;">
+    <i class="fa-solid fa-inbox" style="background-color: black;"></i>   :  P.O.BOX 222024, Kampala
+</p>
+<p style="text-align: center; color: white;">
+    <i class="fa-solid fa-phone" style="color: green;"></i>: +256 703 390 874, +256 782 948 588 
+</p>
+<h4 style="text-align: center; color: burlywood;">QUICK LINKS:</h4>
+<p style="text-align: center; font-size: small"><a href="ADMISSION.html">ADMISSION</a></p>
+<p style="text-align: center;font-size: small "><a href="GALLERY.html">GALLERY</a></p>
+    <p style="text-align: center; font-size: small;"><a href="Contact And Location.html">CONTACT US</a></p>
+    <p style="text-align: center; font-size: small;"><a href="ABOUT.html">ABOUT</a></p>
+    <p style="text-align: center; font-size: small;"><a href="">ACADEMICS</a></p>
+    <hr>
+    <p style="text-align: center; color: white;">&copy 2024 -  All Rights Are Reserved</p>
+</footer>
+</html>

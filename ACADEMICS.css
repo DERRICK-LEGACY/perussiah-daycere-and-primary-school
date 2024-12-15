@@ -1,0 +1,76 @@
+*{ 
+    box-sizing: border-box;
+}
+html {
+    width: 100%;
+
+}
+body {
+    width: 100%;
+    background-position: 100%;
+    background-size: 100%;
+    
+}
+nav {
+    text-align: center;
+    background-color: rgba(0, 128, 0, 0.283); 
+     padding: 2px;
+     top: 0;
+     position: fixed;
+     width: 100%;
+     border-radius: 10px;
+     border: none;
+     box-shadow: 4px 6px 16px;
+     color: black;
+}
+a {
+    text-decoration: none;
+    color: black;
+    scroll-padding: 10px;
+    padding: 5px;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    @keyframes identifier {
+        move-words
+    }
+    scroll-behavior: smooth;
+}
+a:hover {
+    color: green;
+    transition: ease-out, width 2s, height 2s, transform 2s;
+}
+.socialmediaicon{
+    text-align: end;
+    padding: 5px;
+    padding-left: 5px;
+    column-gap: 4cm;
+    justify-self: space-between;
+    }
+    .areafooter {
+        width: 100%;
+        background:rgba(0, 0, 0, 0.824);
+        height: 700px;
+       }
+       .about {
+        text-align: center;
+        color: white;
+        text-decoration-line: underline;
+    }
+    .vission {
+        color: white;
+        text-align: center;
+    }
+    .icons {
+        text-align: center;
+        column-rule-width: 5cm;
+    }
+    .office {
+        text-align: center;
+        color: rgba(255, 255, 0, 0.726);
+    }
+    .Learner{
+        height: 120px;
+        background-color: red;
+        border: 10px black;
+        display: flex;
+        align-self: self-end;
+    }

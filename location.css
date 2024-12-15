@@ -1,0 +1,118 @@
+html {
+    width: 100%;
+}
+body{
+    background-color: rgba(222, 184, 135, 0.352);
+}
+.whatsapp{
+    color: green;
+}
+.facebook{
+    color: rgba(68, 0, 255, 0.9);
+}
+.Email{
+    color: rgba(255, 68, 0, 0.932);
+}
+.location {
+    color: rgba(0, 128, 17, 0.881);
+}
+h4{
+    text-decoration: underline;
+}
+iframe {
+    text-align: center;
+    border-radius: 5px;
+    border-color: red;
+}
+nav {
+    text-align: center;
+    background-color: rgba(0, 128, 0, 0.283); 
+     padding: 2px;
+     top: 0;
+     position: fixed;
+     width: 100%;
+     border-radius: 10px;
+     border: none;
+     box-shadow: 4px 6px 16px;
+     color: black;
+}
+a {
+    text-decoration: none;
+    color: black;
+    scroll-padding: 10px;
+    padding: 5px;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    @keyframes identifier {
+        move-words
+    }
+    scroll-behavior: smooth;
+}
+a:hover {
+    color: green;
+    transition: ease-out, width 2s, height 2s, transform 2s;
+}
+.socialmediaicon{
+    text-align: end;
+    padding: 5px;
+    padding-left: 5px;
+}
+.mail {
+    color: rgba(11, 117, 204, 0.84);
+    text-decoration: none;
+}
+.section {
+    background-color: rgba(0, 0, 0, 0.447);
+    width: inherit;
+    width: 100%;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: black;
+    border: 5ch
+}
+.areafooter {
+    width: 100%;
+    background:rgba(0, 0, 0, 0.824);
+    height: 700px;
+   }
+   .about {
+    text-align: center;
+    color: white;
+    text-decoration-line: underline;
+}
+.vission {
+    color: white;
+    text-align: center;
+}
+.icons {
+    text-align: center;
+    column-rule-width: 5cm;
+}
+.office {
+    text-align: center;
+    color: rgba(255, 255, 0, 0.726);
+}
+.Learner{
+    height: 120px;
+    background-color: red;
+    border: 10px black;
+    display: flex;
+    align-self: self-end;
+}
+.direction{
+    display: flex;
+    justify-content: center;
+}
+.signpost{
+    background-image: url(signpost.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    text-align: center;
+    width: 40%;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 3px 5px 15px;
+    height: 40vh; 
+}

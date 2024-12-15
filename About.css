@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+}
+/* css for html document*/
+html  {
+    width: 100%;
+}
+/* css for the profile one*/
+h1 {
+ 
+ width: 36%;  
+}
+.vex2 {
+    
+    width: 36%;
+}
+.vex3 {
+    background-position: 12px;
+    width: 36%;
+}
+
+/* css for the nav section*/
+a {
+text-align: end;
+color: black;
+text-decoration: none;
+}
+a:hover {
+  color: green;
+  transition: ease-out, width 2s, height 2s, transform 2s;
+}
+nav {
+  text-align: center;
+  background-color: rgba(0, 128, 0, 0.283); 
+   padding: 2px;
+   top: 0;
+   position: fixed;
+   width: 100%;
+   border-radius: 10px;
+   border: none;
+   box-shadow: 4px 6px 16px;
+   color: black;
+ }
+ /* css for the socialmedia icon*/
+.socialmediaicon{
+    text-align: end;
+    padding: 5px;
+    padding-left: 5px;
+    }
+    /* css for the footer*/
+    .areafooter {
+        width: 100%;
+        background:rgba(0, 0, 0, 0.824);
+        height: 700px;
+       }
+       .about {
+           text-align: center;
+           color: white;
+           text-decoration-line: underline;
+       }
+       
+       .icons {
+           text-align: center;
+           column-rule-width: 5cm;
+       }
+       
+  .profile1{
+    display: flex;
+    row-gap: 3cm;
+    gap: 2cm;
+  }
+  .about2{
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    height: 320vh;
+    gap: 30px;
+    align-items: center;
+  }
+  .item2{
+    display: flex;
+    text-align: center;
+    width: 70%;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 5px 15px;
+    height: 40vh; 
+  }
+  .item2:hover{
+    transition: 1s ease-in-out;
+    background: scroll;
+    background-color: blue;
+    transform: rotate(6deg);
+  }
+   .item3{
+    display: flex;
+    text-align: center;
+    width: 40%;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 5px 15px;
+    height: 40vh; 
+  } 
+  
+  .item3:hover{
+    transition: 1s ease-in-out;
+    background: scroll;
+    background-color: blue;
+    transform: rotate(-6deg);
+  }
+  
+  .item4{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    text-align: center;
+    width: 40%;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 5px 15px;
+    height: 40vh; 
+  }
+  .learn{
+    justify-self: end;
+    text-align: end;
+  }
+
+  @media (max-width: 700px) {
+    .about2{
+      display: inline;
+    }
+  }
+    @media (max-width: 200px) {
+      .about2{
+        position: fixed; 
+      
+      }
+      .areafooter{
+        position: fixed;
+      }
+      
+    }
+        

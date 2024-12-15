@@ -1,0 +1,422 @@
+/* css documment */
+html {
+    width: 100%;
+
+}
+/* css for the body */
+body {
+    width: 100%;
+    background-position: 100%;
+    background-size: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.871), rgba(41, 193, 223, 0.827),rgba(238, 128, 147, 0.778),rgba(242, 215, 215, 0.833)); 
+}
+/* css for the logo section */
+.Logo{
+    display: flex;
+
+}
+
+.Logo img{
+    width: 100px;
+    height: 100px;
+}
+/* css for the nav section */
+nav {
+    text-align: center;
+   background-color: rgba(0, 128, 0, 0.283); 
+    padding: 2px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 4px 6px 16px;
+    color: black;
+}
+/* css for the for the main section of the body section */
+.hero{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+.description1{
+    background-image: url(front.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+}
+a {
+    text-decoration: none;
+    color: black;
+    scroll-padding: 10px;
+    padding: 5px;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    @keyframes identifier {
+        move-words
+    }
+    scroll-behavior: smooth;
+}
+a:hover {
+    color: green;
+    transition: ease-out, width 2s, height 2s, transform 2s;
+}
+h3 {
+    text-align: end;
+    color: rgb(26, 4, 225);
+}
+.atschool {
+    text-align: center;
+}
+.Logo {
+    text-align: center;
+}
+/* css for the socialmedia icons*/
+.socialmediaicon{
+text-align: end;
+padding: 5px;
+padding-left: 5px;
+column-gap: 4cm;
+justify-self: space-between;
+gap: 5cm;
+}
+/* css for the learn more button */
+.LEARN {
+    text-align: center;
+}
+button {
+    height: 40px;
+    border-radius: 15px;
+    color: burlywood;
+}
+/* css for the hover boxees with links */
+.checkbox {
+    padding: 20px;
+    display: flexbox;
+    text-overflow: ellipsis;
+    text-align: end;
+    border-style: ridge;
+    border-radius: 20ch;
+    background-color: rgba(127, 255, 212, 0.279);
+    display: flex;
+    column-gap: 3cm;
+    width: 90%;
+
+}
+/* css for the active learning section containing a message about active learning */
+.activelearning{
+    justify-content: center;
+    background: rgba(8, 141, 217, 0.547);
+    text-align: center;
+    width: 60%;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 5px 15px;
+    height: 40vh;
+}
+/* css for the hover box for the admission in the checkbox section */
+.admission {
+    background-color: rgba(255, 60, 0, 0.918);
+color: white;
+padding: 15px;
+border-style: ridge;
+border-radius: 5px;
+box-shadow: 4px 6px 16px;
+
+}
+
+.admission:hover{
+    background-color: blue;
+    box-shadow: 4px 6px 16px;
+}
+/* css for the hover box for the gallery in the checkbox section */
+.allclass {
+    background-color: rgba(255, 174, 0, 0.959);
+    color: white;
+    padding: 25px; 
+    text-align: center; 
+    border-style: groove;
+    border-radius: 5px;
+    box-shadow: 4px 6px 16px;
+}
+.allclass:hover{
+    background-color: blue;
+    box-shadow: 4px 6px 16px;
+}
+/* css for the hover box for the contact in the checkbox section */
+.contact {
+    background-color: greenyellow;
+    color: black;
+    padding: 5px;
+    text-align: end;
+    border-style: ridge;
+border-radius: 2px;
+box-shadow: 4px 6px 16px;
+}
+.contact:hover{
+    background-color: blue;
+    box-shadow: 4px 6px 16px;
+}
+/* css for the flex boxes which are in the green back ground color */
+#flexbox {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 2cqmin;
+    height: 8cm;
+    flex-direction: row;
+    flex-grow: calc(2deg);
+    flex-basis: content;
+    flood-opacity: 2%;
+    flex-wrap: wrap-reverse;
+
+}
+/* css for the first flex box */
+.item1 {
+    width: 40%;
+    height: 200px;
+    border-style: groove;
+    border-right: 2%;
+    row-gap: 8cm;
+}
+/* css for the second flex box */
+.item2 { 
+    width: 40%;
+    border-style: solid;
+    height: 200px;
+    border-radius: 8px;
+}
+/* css for the second flex box */
+.item3 {
+    width: 40%;
+    border-style: groove;
+    border-right: 2%;
+    row-gap: 8cm;
+    border-radius: 20%;
+    border-color: green;
+    height: 200px;
+}
+/* css for the footer*/
+.areafooter {
+ width: 100%;
+ background:rgba(0, 0, 0, 0.824);
+ height: 700px;
+}
+.about {
+    text-align: center;
+    color: white;
+    text-decoration-line: underline;
+}
+.vission {
+    color: white;
+    text-align: center;
+}
+.icons {
+    text-align: center;
+    column-rule-width: 5cm;
+}
+.office {
+    text-align: center;
+    color: rgba(255, 255, 0, 0.726);
+}
+.Learner{
+    height: 120px;
+    background-color: red;
+    border: 10px black;
+    display: flex;
+    align-self: self-end;
+}
+/* css for the menu button */
+.menu-btn {
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    z-index: 1;
+    display: none;
+    
+}
+.close-btn{
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    z-index: 1;
+    display: none; 
+ }
+/* css for the testmonials*/
+.testmonials{
+   display: flex;
+   justify-content: space-evenly;
+   background: linear-gradient(rgba(0, 255, 255, 0.495), rgba(255, 255, 255, 0.797));
+    width: 88%;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 10px 20px;
+    height: 40vh; 
+}
+.testmonial1 img{
+    width: 110px;
+    height: 100px;
+    margin: 0 10px;
+    border-radius: 45%; 
+    box-shadow: 3px 13px 15px;
+}
+.testmonial2 img{
+    width: 110px;
+    height: 100px;
+    margin: 0 10px;
+    border-radius: 45%; 
+    box-shadow: 3px 13px 15px;
+}
+.testmonial3 img{
+    width: 110px;
+    height: 100px;
+    margin: 0 10px;
+    border-radius: 45%; 
+    box-shadow: 3px 13px 15px;
+}
+.testmonial4 img{
+    width: 110px;
+    height: 100px;
+    margin: 0 10px;
+    border-radius: 45%; 
+    box-shadow: 3px 13px 15px;
+}
+/* css on media queries for different screen screen width */
+@media (max-width: 700px) {
+.menu-btn{
+    display: block;
+    }
+.menu-btn:hover {
+     opacity: 0.5;
+     }
+     .close-btn{
+        display: none;
+     }
+     .close-btn:hover{
+      opacity: 0.5;
+     } 
+ .socialmediaicon{
+    display: none;
+ } 
+
+  .contact{
+    display: none;
+ } 
+ nav {
+    display: none;
+ }
+
+nav{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: black;
+    background: rgba(128, 128, 128, 0.801); 
+    width: 80%;
+    height: 120px;
+    transform: translateX(-40px);
+    transition: 0.5s ease-in-out;
+    border: 1px solid black;
+}
+nav ul {
+    position: absolute;
+}
+.Logo{
+    justify-content: center;
+}
+
+ }   
+ .atschool h1 p {
+    @keyframes nudge {
+      100%{ 
+        transform: translateX(-50%);
+        top:100%;
+    }
+    transition: 0.5s ease-in-out;
+ } 
+ .contact{
+    display: none;
+ }  
+ .activelearning {
+    display: inline;
+    transition: 0.7s ease-in-out;
+ } 
+ .testmonials{
+    display: block;
+ }
+ .testmonial3 {
+    display: block;
+ }
+ .testmonial4 {
+    display: grid;
+ }
+}
+@media (max-width: 200px) {
+    .menu-btn{
+        display: block;
+        }
+    .menu-btn:hover {
+         opacity: 0.5;
+         }
+     .checkbox{
+        display: inline;
+     }
+     .contact{
+        display: none;
+     } 
+     .socialmediaicon{
+        display: none;
+    
+     } 
+     .testmonials{
+        display: block;
+     }
+     .testmonial3 {
+        display: block;
+     }
+     .testmonial4 {
+        display: grid;
+     }
+     nav {
+        display: none;
+     }
+    
+    nav{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: black;
+        background: rgba(128, 128, 128, 0.801);
+        opacity: 0.5;
+        width: 60%;
+        height: 120px;
+        transform: translateX(-40px);
+        transition: 0.5s ease-in-out;
+        border: 1px solid black;
+    
+    }
+    .Logo{
+        justify-content: center;
+    }
+    
+     }   
+     .atschool h1 p {
+        @keyframes nudge {
+          100%{ 
+            transform: translateX(-50%);
+            top:100%;
+        }
+        transition: 0.5s ease-in-out;
+     }   
+     .activelearning {
+        display: inline;
+        transition: 0.7s ease-in-out;
+     } 
+    
+    }
